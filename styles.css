@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #pokedex {
+    display:flex;
+    margin:  20px auto;
+    padding:  0 auto;
+    background: #c00d0d;
+    box-shadow: -10px 9px #5e0000;
+    border-radius: 10px;
+    width: 300px;
+      height: 500px;
+    text-align:center;
+  }
+  
+  #search-input{
+    border: 1px solid #feac32;
+  }
+  
+  #search-button{
+    cursor: pointer;
+    background-color: #fecc4c;
+    border: 2px solid #feac32;
+    border-radius:7px;
+  }
+  
+  .search {
+    margin: 10px auto;
+    margin-left: 7px;
+  }
+  
+  
+  .pokemon {
+    font-size:1.1em;
+    display:inline-block;
+    padding:0 2px;
+    width:fit-content;
+  }
+  
+  
+  .dimension {
+    display:inline-block;
+    padding:0 10px;
+    font-size:1.1rem;
+    position:relative;
+    top:20px;
+  }
+  
+  #types {
+    display:flex;
+    justify-content:space-between;
+    margin-top:30px;
+  }
+  
+  #sprite {
+    position:relative;
+    margin:-175px;
+    height:100%;
+    width:60%;
+    object-fit:contain;
+    display:inline-block;
+  }
+  
+  .screen-border {
+    display:flex;
+    height: 470px;
+      width: 270px;
+    margin:auto;
+      padding: 0 15px;
+      background-color: #b0b0b0;
+    border-radius:10px;
+  }
+  
+  .screen {
+    background-color:#fff;
+    margin:auto;
+    height:455;
+    width:375;
+    border-radius:10px;
+    border: 3px solid #494949;
+  }
+  
+  table {
+    top: 290px;
+    padding-left: 10px;
+    position:absolute;
+  }
+  
+  tr {
+    background-color:#fecc4c;
+    color:black;
+    text-align:center;
+    font-size:1.4rem
+  }
+  
+  .BUG {
+    background-color:#94BC4A;
+  }
+  
+  .DARK {
+    background-color:#736C75;
+  }
+  
+  .DRAGON {
+    background-color:#6A7BAF;
+  }
+  
+  .ELECTRIC {
+    background-color:#E5C531;
+  }
+  
+  .FAIRY {
+    background-color:#E397D1;
+  }
+  
+  .FIGHTING {
+    background-color:#CB5F48;
+  }
+  
+  .FIRE {
+    background-color:#EA7A3C;
+  }
+  
+  .FLYING {
+    background-color:#7DA6DE;
+  }
+  
+  .GHOST {
+    background-color:#846AB6;
+  }
+  
+  .GRASS {
+    background-color:#71C558;
+  }
+  
+  .GROUND {
+    background-color:#CC9F4F;
+  }
+  
+  .ICE {
+    background-color:#70CBD4;
+  }
+  
+  .NORMAL {
+    background-color:#AAB09F;
+  }
+  
+  .POISON {
+    background-color:#B468B7;
+  }
+  
+  .PSYCHIC {
+    background-color:#E5709B;
+  }
+  
+  .ROCK {
+    background-color:#B2A061;
+  }
+  
+  .STEEL {
+    background-color:#89A1B0;
+  }
+  
+  .WATER {
+    background-color:#539AE2;
+  }
+  
